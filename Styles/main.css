@@ -35,7 +35,7 @@
 }
 
 #searchBox{
-	float: left;
+	float: center;
 }
 
 body {
@@ -53,15 +53,13 @@ body {
 
 header {
 	text-align: center;
-
 	border: solid black 2px;
+	height: 162px;
 }
 
 #rhythm_header{
 	background-image: url("images/rhythmlogo.jpg");
 }
-
-
 header h1 {
 /* 	text-align: center;
  */	padding-left: 0;
@@ -98,6 +96,9 @@ section {
 	float: left;
 	width: 400px;
 	
+}
+sectionHeader{
+	width: 1200px;
 }
 
 textarea{
